@@ -1,0 +1,32 @@
+smp-nu-tugasari/
+├── public/                 # Frontend (Static Files - GitHub Pages Ready)
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   └── images/
+│   ├── index.html          # Halaman Beranda
+│   ├── profil.html         # Halaman Profil & Visi Misi
+│   ├── guru.html           # Halaman Data Guru & Staff
+│   ├── berita.html         # Halaman Berita & Pengumuman
+│   ├── ppdb.html           # Halaman PPDB Online
+│   ├── galeri.html         # Halaman Galeri & Video
+│   ├── kontak.html         # Halaman Kontak
+│   └── admin/              # Halaman Dashboard Admin (HTML)
+│       ├── index.html      # Login Admin
+│       ├── dashboard.html  # Panel Utama
+│       └── ...
+├── backend/                # Backend API (Node.js + Express)
+│   ├── src/
+│   │   ├── config/         # Konfigurasi Database & Cloud Storage
+│   │   ├── controllers/    # Logika CRUD (Berita, Guru, PPDB, dll)
+│   │   ├── middleware/     # Auth (JWT), Role Access, Upload (Multer)
+│   │   ├── models/         # Model Database (Sequelize/Prisma)
+│   │   ├── routes/         # Endpoint API
+│   │   └── server.js       # Entry point Express
+│   ├── package.json
+│   └── .env
+├── database/
+│   └── smp_nu_tugasari.sql # Skema Database MySQL
+├── robots.txt
+├── sitemap.xml
+└── README.md
